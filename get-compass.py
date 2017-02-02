@@ -2,7 +2,7 @@ from sense_hat import SenseHat
 
 sense = SenseHat()
 
-While True:
+while True:  
   north = sense.get_compass()
   print("North: %s" % north)
   # alternatives
